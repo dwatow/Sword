@@ -1,0 +1,433 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Taiwan) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+#pragma code_page(950)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 1\r\n"
+    "#pragma code_page(950)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Sword.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.cht\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Sword.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 236, 56
+STYLE WS_POPUP | WS_THICKFRAME
+FONT 9, "新細明體"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Sword Version 0.08",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "確定",IDOK,179,7,50,14,WS_GROUP
+END
+
+IDD_SWORD_DIALOG DIALOGEX 0, 0, 170, 261
+STYLE WS_POPUP | WS_VISIBLE | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "Verdana"
+BEGIN
+    DEFPUSHBUTTON   "r",IDOK,1,1,10,11,BS_CENTER | BS_VCENTER | WS_GROUP | 
+                    NOT WS_TABSTOP
+    DEFPUSHBUTTON   "1",IDC_MAX,11,1,10,11,BS_CENTER | BS_VCENTER | WS_GROUP | 
+                    NOT WS_TABSTOP
+    CONTROL         "",IDC_CACONTROL1,"{1F2F52A5-CE61-45F1-B737-75A56ED77422}",
+                    WS_GROUP,80,20,86,21
+    PUSHBUTTON      "R",IDC_RED,30,0,20,10,BS_FLAT | NOT WS_VISIBLE | 
+                    WS_GROUP
+    PUSHBUTTON      "G",IDC_GREEN,50,0,20,10,BS_FLAT | NOT WS_VISIBLE | 
+                    WS_GROUP
+    PUSHBUTTON      "B",IDC_BLUE,70,0,20,10,BS_FLAT | NOT WS_VISIBLE | 
+                    WS_GROUP
+    PUSHBUTTON      "W",IDC_WHITE,90,0,20,10,BS_FLAT | NOT WS_VISIBLE | 
+                    WS_GROUP
+    PUSHBUTTON      "D",IDC_BLACK,110,0,20,10,BS_FLAT | NOT WS_VISIBLE | 
+                    WS_GROUP
+    PUSHBUTTON      "自訂",IDC_USERCOLOR,135,0,20,10,BS_FLAT | NOT 
+                    WS_VISIBLE | WS_GROUP
+    EDITTEXT        IDC_FROM_EDGE,67,89,14,12,ES_AUTOHSCROLL | WS_DISABLED | 
+                    WS_GROUP
+    PUSHBUTTON      "九點量測",IDC_BUTTON1,305,70,50,14,NOT WS_VISIBLE | 
+                    WS_GROUP
+    PUSHBUTTON      "中心點量測",IDC_BUTTON2,305,30,50,14,NOT WS_VISIBLE | 
+                    WS_GROUP
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_ARROWKEYS | NOT 
+                    WS_VISIBLE | WS_GROUP | WS_TABSTOP,290,115,9,10
+    EDITTEXT        IDC_5NITS_GRAY,250,114,40,12,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE | WS_GROUP | NOT WS_TABSTOP
+    PUSHBUTTON      "自動找5nits",IDC_BUTTON3,305,115,50,14,NOT WS_VISIBLE | 
+                    WS_GROUP
+    PUSHBUTTON      "2nd Source",IDC_SAVE1,185,26,50,14,NOT WS_VISIBLE | 
+                    WS_DISABLED | WS_GROUP
+    LTEXT           "設定CA-210↑",IDC_STATIC_README,125,45,41,8
+    PUSHBUTTON      "取消",IDCANCEL,250,175,50,14,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    CONTROL         "",IDC_COLOR_PATTERN,"Static",SS_ETCHEDHORZ,0,0,1,1
+    GROUPBOX        "工程模式",IDC_STATIC_MFL,245,15,115,180,BS_LEFT | NOT 
+                    WS_VISIBLE | WS_GROUP
+    LTEXT           "測試值",IDC_TESTVALUE,30,10,135,8,NOT WS_VISIBLE
+    LTEXT           "離邊:1/",IDC_STATIC_FE,45,91,21,8,WS_DISABLED | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Gamma",IDC_BUTTON4,250,135,50,14,NOT WS_VISIBLE | 
+                    WS_GROUP
+    PUSHBUTTON      "SEC Form",IDC_SAVE2,185,43,50,14,NOT WS_VISIBLE | 
+                    WS_DISABLED | WS_GROUP
+    PUSHBUTTON      "49點量測",IDC_BUTTON5,305,95,50,14,NOT WS_VISIBLE | 
+                    WS_GROUP
+    GROUPBOX        "輸出報告",IDC_STATIC_RPL,180,15,60,160,NOT WS_VISIBLE | 
+                    WS_GROUP
+    CONTROL         "Lv",IDC_CHECK_Lv,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    95,95,18,10
+    GROUPBOX        "量測預覽值",IDC_STATIC_DISVALUES,90,80,75,75
+    CONTROL         "x",IDC_CHECK_SX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    120,95,15,10
+    CONTROL         "y",IDC_CHECK_SY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    140,95,15,10
+    CONTROL         "Δu",IDC_CHECK_DU,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    140,120,20,10
+    CONTROL         "Δv",IDC_CHECK_DV,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    115,130,20,10
+    PUSHBUTTON      "D13點量測",IDC_BUTTON6,305,135,50,14,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    PUSHBUTTON      "SEC 13 Form",IDC_SAVE13P,185,59,50,14,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    CONTROL         "T",IDC_CHECK_T,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    115,120,15,10
+    CONTROL         "Δuv",IDC_CHECK_Duv,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,140,130,22,10
+    CONTROL         "X",IDC_CHECK_X,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,95,
+                    110,15,10
+    CONTROL         "Y",IDC_CHECK_Y,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,95,
+                    120,15,10
+    CONTROL         "Z",IDC_CHECK_Z,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,95,
+                    130,15,10
+    PUSHBUTTON      "清除量測資料",IDC_BUTTON_RST,185,155,50,14,NOT 
+                    WS_VISIBLE
+    CONTROL         "寫入49點格式",IDC_CHECK_9CVR49,"Button",BS_AUTOCHECKBOX | 
+                    NOT WS_VISIBLE | WS_TABSTOP,250,55,50,10
+    CONTROL         "寫入  9點格式",IDC_CHECK_49CVR9,"Button",
+                    BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,250,90,50,
+                    10
+    CONTROL         "寫入中心點格式",IDC_CHECK_9CVR1,"Button",
+                    BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,250,66,52,
+                    10
+    CONTROL         "寫入中心點格式",IDC_CHECK_49CVR1,"Button",
+                    BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,250,102,55,
+                    10
+    CONTROL         "寫入  9點格式",IDC_CHECK_1CVR9,"Button",BS_AUTOCHECKBOX | 
+                    NOT WS_VISIBLE | WS_TABSTOP,250,26,54,10
+    CONTROL         "寫入49點格式",IDC_CHECK_1CVR49,"Button",BS_AUTOCHECKBOX | 
+                    NOT WS_VISIBLE | WS_TABSTOP,250,35,54,10
+    PUSHBUTTON      "D25點量測",IDC_BUTTON7,250,155,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "SEC 25 Form",IDC_SAVE25P,185,75,50,14,NOT WS_VISIBLE | 
+                    WS_DISABLED
+    PUSHBUTTON      "SubPixel",IDC_FLK_SPIX,160,0,35,10,BS_FLAT | NOT 
+                    WS_VISIBLE
+    PUSHBUTTON      "2Line INV",IDC_FLK_2L,265,0,40,10,BS_FLAT | NOT 
+                    WS_VISIBLE
+    PUSHBUTTON      "2Line+1 INV",IDC_FLK_2L1,305,0,50,10,BS_FLAT | NOT 
+                    WS_VISIBLE
+    PUSHBUTTON      "V-Stripe",IDC_FLK_VS,230,0,35,10,BS_FLAT | NOT 
+                    WS_VISIBLE
+    PUSHBUTTON      "Column",IDC_FLK_COL,195,0,35,10,BS_FLAT | NOT 
+                    WS_VISIBLE
+    PUSHBUTTON      "Flicker量測",IDC_BUTTON8,305,175,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "t26 Form",IDC_TEMPFOR26,185,94,50,14,NOT WS_VISIBLE | 
+                    WS_DISABLED,0,HIDC_TEMPFOR26
+    PUSHBUTTON      "量測",IDC_BUTTON_MSRFLOW,90,193,75,25
+    COMBOBOX        IDC_COMBO_SELTAI,10,55,70,59,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "█",IDC_CHECK_OQCW9,"Button",BS_AUTOCHECKBOX | WS_GROUP | 
+                    WS_TABSTOP,10,91,18,10
+    CONTROL         "5Nits",IDC_CHECK_OQC5NITS,"Button",BS_AUTOCHECKBOX | 
+                    WS_GROUP | WS_TABSTOP,55,70,27,10
+    CONTROL         "█",IDC_CHECK_OQCR,"Button",BS_AUTOCHECKBOX | WS_GROUP | 
+                    WS_TABSTOP,10,125,17,10
+    CONTROL         "█",IDC_CHECK_OQCG,"Button",BS_AUTOCHECKBOX | WS_GROUP | 
+                    WS_TABSTOP,30,125,17,10
+    CONTROL         "█",IDC_CHECK_OQCB,"Button",BS_AUTOCHECKBOX | WS_GROUP | 
+                    WS_TABSTOP,50,125,17,10
+    CONTROL         "█",IDC_CHECK_OQCD25,"Button",BS_AUTOCHECKBOX | 
+                    WS_GROUP | WS_TABSTOP,10,70,18,10
+    GROUPBOX        "OQC量測",IDC_STATIC_OQC,5,45,80,138,WS_GROUP
+    PUSHBUTTON      "Output Form",IDC_SAVEOQC,105,228,60,15,WS_DISABLED
+    LTEXT           "中心點",IDC_STATIC_OQCRGB,10,105,19,8
+    LTEXT           "9點",IDC_STATIC_OQCW9,30,91,11,8
+    LTEXT           "25點",IDC_STATIC_OQCD25,30,70,15,8
+    COMBOBOX        IDC_COMBO_SAVEOQC,5,228,95,86,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "載入Bar Code檔",IDC_BUTTON_LOADBC,5,25,70,15
+    CONTROL         "█",IDC_CHECK_OQCW49,"Button",BS_AUTOCHECKBOX | 
+                    WS_GROUP | WS_TABSTOP,10,80,20,10
+    LTEXT           "49點",IDC_STATIC_OQCW49,30,81,15,8
+    CONTROL         "按Enter",IDC_RADIO_ACTENTER,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,10,203,39,10
+    CONTROL         "自動",IDC_RADIO_AUTO,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,50,203,28,10
+    GROUPBOX        "量測動作",IDC_STATIC_MSROPITEM,5,193,80,25
+    PUSHBUTTON      "自動量校正",IDC_AUTOMSRCAL,115,60,50,14,NOT WS_VISIBLE
+    CONTROL         "█",IDC_CHECK_OQCW5,"Button",BS_AUTOCHECKBOX | WS_GROUP | 
+                    WS_TABSTOP,10,155,15,10
+    LTEXT           "5點",IDC_STATIC_OQCW5,10,145,11,8
+    CONTROL         "█",IDC_CHECK_OQCR5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,165,15,10
+    CONTROL         "█",IDC_CHECK_OQCB5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,50,165,15,10
+    CONTROL         "█",IDC_CHECK_OQCG5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,30,165,15,10
+    CONTROL         "█",IDC_CHECK_OQCD5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,30,155,15,10
+    EDITTEXT        IDC_FROM_5EDGE,70,144,11,13,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "離邊:1/",IDC_STATIC_5FE,46,145,22,8,WS_DISABLED
+    CONTROL         "█",IDC_CHECK_OQCW,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,115,15,10
+    CONTROL         "█",IDC_CHECK_OQCD,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,30,115,15,10
+END
+
+IDD_INITIAL DIALOG DISCARDABLE  250, 200, 245, 170
+STYLE WS_POPUP | WS_BORDER
+FONT 9, "Verdana"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,141,12,25,15,NOT WS_VISIBLE
+    PUSHBUTTON      "Cancel",IDCANCEL,171,12,25,14,NOT WS_VISIBLE
+    LTEXT           "Static",IDC_INIT_MSG,14,96,198,8
+    LTEXT           "CLT EE test Software Beta v0.09",IDC_STATIC,14,105,106,
+                    8,NOT WS_VISIBLE
+    CONTROL         147,IDC_STATIC,"Static",SS_BITMAP | SS_CENTERIMAGE,0,0,
+                    245,170
+END
+
+IDD_DIALOG_ENTER DIALOG DISCARDABLE  350, 215, 95, 36
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Sword - 手動抓值模式"
+FONT 9, "Verdana"
+BEGIN
+    DEFPUSHBUTTON   "按Enter！抓值！",IDOK,15,11,64,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,0,8,0
+ PRODUCTVERSION 0,0,8,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040404b0"
+        BEGIN
+            VALUE "Comments", "光電技術研發處\0"
+            VALUE "CompanyName", "奇菱科技股份有限公司\0"
+            VALUE "FileDescription", "CA-210光學量測軟體\0"
+            VALUE "FileVersion", "0, 0, 8, 0\0"
+            VALUE "InternalName", "Sword\0"
+            VALUE "LegalCopyright", "Copyright (C) 2010\0"
+            VALUE "LegalTrademarks", "Chi Lin Tech. Co.\0"
+            VALUE "OriginalFilename", "Sword.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Sword Application\0"
+            VALUE "ProductVersion", "0, 0, 8, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x404, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 229
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 49
+    END
+
+    IDD_DIALOG_ENTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 88
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 29
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_SWORD_DIALOG DLGINIT
+BEGIN
+    IDC_CACONTROL1, 0x376, 76, 0
+0x0000, 0x0000, 0xb293, 0x0000, 0x0048, 0x0000, 0x0003, 0x0008, 0xf20b, 
+0x4757, 0x0020, 0x0000, 0x005f, 0x0065, 0x0078, 0x0074, 0x0065, 0x006e, 
+0x0074, 0x0078, 0x11c7, 0x0000, 0x0003, 0x0008, 0xf20a, 0x4757, 0xffe0, 
+0xffff, 0x005f, 0x0065, 0x0078, 0x0074, 0x0065, 0x006e, 0x0074, 0x0079, 
+0x03d3, 0x0000, 
+    IDC_COMBO_SELTAI, 0x403, 6, 0
+0xc4b2, 0xa531, 0x0078, 
+    IDC_COMBO_SELTAI, 0x403, 6, 0
+0xc4b2, 0xa532, 0x0078, 
+    IDC_COMBO_SELTAI, 0x403, 6, 0
+0xc4b2, 0xa533, 0x0078, 
+    IDC_COMBO_SELTAI, 0x403, 6, 0
+0xc4b2, 0xa534, 0x0078, 
+    IDC_COMBO_SELTAI, 0x403, 6, 0
+0xc4b2, 0xa535, 0x0078, 
+    IDC_COMBO_SELTAI, 0x403, 6, 0
+0xc4b2, 0xa536, 0x0078, 
+    IDC_COMBO_SELTAI, 0x403, 6, 0
+0xc4b2, 0xa537, 0x0078, 
+    IDC_COMBO_SELTAI, 0x403, 6, 0
+0xc4b2, 0xa538, 0x0078, 
+    IDC_COMBO_SELTAI, 0x403, 6, 0
+0xc4b2, 0xa539, 0x0078, 
+    IDC_COMBO_SELTAI, 0x403, 7, 0
+0xc4b2, 0x3031, 0x78a5, "\000" 
+    IDC_COMBO_SELTAI, 0x403, 5, 0
+0xe0c2, 0xc9c0, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP3             BITMAP  DISCARDABLE     "res\\008.bmp"
+IDB_BITMAP4             BITMAP  DISCARDABLE     "res\\未命名 -2拷貝.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE 初始化失敗。 請確定 OLE 程式庫是正確版本。"
+    IDS_ABOUTBOX            "關於 Sword(&A)..."
+END
+
+#endif    // Chinese (Taiwan) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+#ifdef _WIN32
+LANGUAGE 4, 1
+#pragma code_page(950)
+#endif //_WIN32
+#include "res\Sword.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.cht\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

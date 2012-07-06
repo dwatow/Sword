@@ -1,0 +1,13 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+
+HKEY_CLASSES_ROOT\Sword.Application = Sword Application
+HKEY_CLASSES_ROOT\Sword.Application\CLSID = {D4C31140-19C3-482A-B6C9-FA70F610CEC7}
+
+HKEY_CLASSES_ROOT\CLSID\{D4C31140-19C3-482A-B6C9-FA70F610CEC7} = Sword Application
+HKEY_CLASSES_ROOT\CLSID\{D4C31140-19C3-482A-B6C9-FA70F610CEC7}\ProgId = Sword.Application
+HKEY_CLASSES_ROOT\CLSID\{D4C31140-19C3-482A-B6C9-FA70F610CEC7}\LocalServer32 = SWORD.EXE

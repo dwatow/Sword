@@ -1,0 +1,43 @@
+// Sword.odl : type library source for Sword.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (Sword.tlb).
+
+[ uuid(3B3EC14B-8099-4B8F-8588-9852230BCD38), version(1.0) ]
+library Sword
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+	//  Primary dispatch interface for CSwordDoc
+	
+	[ uuid(6B491210-B660-4777-8021-845A45DEBD27) ]
+	dispinterface ISword
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CSwordDlgAutoProxy)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CSwordDlgAutoProxy)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CSwordDoc
+	
+	[ uuid(D4C31140-19C3-482A-B6C9-FA70F610CEC7) ]
+	coclass Sword
+	{
+		[default] dispinterface ISword;
+	};
+
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

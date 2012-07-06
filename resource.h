@@ -1,0 +1,125 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Developer Studio generated include file.
+// Used by Sword.rc
+//
+#define IDM_ABOUTBOX                    0x0010
+#define IDD_ABOUTBOX                    100
+#define IDP_OLE_INIT_FAILED             100
+#define IDS_ABOUTBOX                    101
+#define IDD_SWORD_DIALOG                102
+#define IDR_MAINFRAME                   128
+#define IDD_INITIAL                     129
+#define IDB_BITMAP1                     135
+#define IDB_BITMAP2                     136
+#define IDB_BITMAP3                     142
+#define IDD_DIALOG_ENTER                143
+#define IDB_BITMAP4                     147
+#define IDC_STATIC_README               1000
+#define IDC_COLOR_PATTERN               1001
+#define IDC_RED                         1003
+#define IDC_GREEN                       1004
+#define IDC_BLUE                        1005
+#define IDC_WHITE                       1006
+#define IDC_BLACK                       1007
+#define IDC_USERCOLOR                   1008
+#define IDC_INIT_MSG                    1009
+#define IDC_STATIC_MFL                  1010
+#define IDC_CACONTROL1                  1013
+#define IDC_XYCONTROL1                  1014
+#define IDC_BUTTON1                     1016
+#define IDC_NineO                       1017
+#define IDC_TESTVALUE                   1018
+#define IDC_BUTTON2                     1019
+#define IDC_SAVE1                       1020
+#define IDC_FROM_EDGE                   1023
+#define IDC_STATIC_FE                   1024
+#define IDC_MAX                         1025
+#define IDC_BUTTON3                     1026
+#define IDC_SPIN1                       1028
+#define IDC_5NITS_GRAY                  1029
+#define IDC_BUTTON4                     1032
+#define IDC_SAVE2                       1033
+#define IDC_CA_AGING                    1034
+#define IDC_AGINGFROM                   1035
+#define IDC_BUTTON5                     1036
+#define IDC_ZEROCAL                     1039
+#define IDC_STATIC_RPL                  1040
+#define IDC_CHECK_Lv                    1045
+#define IDC_CHECK_SX                    1046
+#define IDC_CHECK_SY                    1047
+#define IDC_CHECK_DU                    1048
+#define IDC_CHECK_DV                    1049
+#define IDC_BUTTON6                     1050
+#define IDC_STATIC_DISVALUES            1051
+#define IDC_SAVE13P                     1052
+#define IDC_CHECK_T                     1053
+#define IDC_CHECK_Duv                   1054
+#define IDC_CHECK_X                     1055
+#define IDC_CHECK_Y                     1056
+#define IDC_CHECK_Z                     1057
+#define IDC_BUTTON_RST                  1058
+#define IDC_CHECK_9CVR49                1059
+#define IDC_CHECK_49CVR9                1060
+#define IDC_CHECK_9CVR1                 1061
+#define IDC_CHECK_49CVR1                1062
+#define IDC_CHECK_1CVR9                 1064
+#define IDC_CHECK_1CVR49                1065
+#define IDC_BUTTON7                     1066
+#define IDC_SAVE25P                     1067
+#define IDC_FLK_SPIX                    1068
+#define IDC_FLK_2L                      1069
+#define IDC_FLK_2L1                     1070
+#define IDC_FLK_VS                      1071
+#define IDC_FLK_COL                     1072
+#define IDC_BUTTON8                     1073
+#define IDC_CHECK_FLK                   1074
+#define IDC_TEMPFOR26                   1075
+#define IDC_BUTTON_MSRFLOW              1076
+#define IDC_COMBO_SELTAI                1077
+#define IDC_COMBO_SELFLKPTM             1078
+#define IDC_CHECK_OQCW9                 1079
+#define IDC_CHECK_OQC5NITS              1080
+#define IDC_CHECK_OQCR                  1081
+#define IDC_CHECK_OQCG                  1082
+#define IDC_CHECK_OQCB                  1083
+#define IDC_CHECK_OQCD25                1084
+#define IDC_STATIC_OQC                  1086
+#define IDC_STATIC_OQCFLK               1087
+#define IDC_SAVEOQC                     1088
+#define IDC_COMBO1                      1089
+#define IDC_COMBO_SAVEOQC               1089
+#define IDC_STATIC_OQCRGB               1090
+#define IDC_STATIC_OQCD25               1091
+#define IDC_STATIC_OQCW9                1094
+#define IDC_BUTTON9                     1095
+#define IDC_BUTTON_LOADBC               1095
+#define IDC_EDIT_ORIGPATH               1096
+#define IDC_CHECK1                      1098
+#define IDC_CHECK_OQCD33                1098
+#define IDC_CHECK_OQCW5                 1098
+#define IDC_CHECK_OQCW49                1099
+#define IDC_STATIC_OQCW49               1100
+#define IDC_RADIO_ACTENTER              1102
+#define IDC_RADIO_AUTO                  1103
+#define IDC_STATIC_MSROPITEM            1104
+#define IDC_AUTOMSRCAL                  1107
+#define IDC_STATIC_OQCW5                1108
+#define IDC_CHECK_OQCR5                 1109
+#define IDC_CHECK_OQCB5                 1110
+#define IDC_CHECK_OQCG5                 1111
+#define IDC_CHECK_OQCD5                 1112
+#define IDC_FROM_5EDGE                  1113
+#define IDC_STATIC_5FE                  1114
+#define IDC_CHECK_OQCW                  1115
+#define IDC_CHECK_OQCD                  1116
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        148
+#define _APS_NEXT_COMMAND_VALUE         32771
+#define _APS_NEXT_CONTROL_VALUE         1117
+#define _APS_NEXT_SYMED_VALUE           101
+#endif
+#endif
